@@ -1,17 +1,27 @@
-# u-gentle-badger-68-monday-morning-punchlines-709645dc-chapo124574
+# Monday Morning Punchlines
 
-[![make.fun · u-gentle-badger-68-monday-morning-punchlines-709645dc](https://make.fun/badge/u-gentle-badger-68-monday-morning-punchlines-709645dc.svg)](https://make.fun/bounty/u-gentle-badger-68-monday-morning-punchlines-709645dc?utm_source=github&utm_medium=readme&utm_campaign=u-gentle-badger-68-monday-morning-punchlines-709645dc)
-[![rank](https://make.fun/badge/u-gentle-badger-68-monday-morning-punchlines-709645dc/Chapo1245/u-gentle-badger-68-monday-morning-punchlines-709645dc-chapo124574/rank.svg)](https://make.fun/bounty/u-gentle-badger-68-monday-morning-punchlines-709645dc/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-gentle-badger-68-monday-morning-punchlines-709645dc)
-[![reward](https://make.fun/badge/u-gentle-badger-68-monday-morning-punchlines-709645dc/Chapo1245/u-gentle-badger-68-monday-morning-punchlines-709645dc-chapo124574/reward.svg)](https://make.fun/bounty/u-gentle-badger-68-monday-morning-punchlines-709645dc?utm_source=github&utm_medium=readme&utm_campaign=u-gentle-badger-68-monday-morning-punchlines-709645dc)
+[![make.fun](https://make.fun/badge/u-gentle-badger-68-monday-morning-punchlines-709645dc.svg)](https://make.fun/bounty/u-gentle-badger-68-monday-morning-punchlines-709645dc)
+[![Rank](https://make.fun/badge/u-gentle-badger-68-monday-morning-punchlines-709645dc/Chapo1245/u-gentle-badger-68-monday-morning-punchlines-709645dc-chapo124574/rank.svg)](https://make.fun/bounty/u-gentle-badger-68-monday-morning-punchlines-709645dc)
+[![Reward](https://make.fun/badge/u-gentle-badger-68-monday-morning-punchlines-709645dc/Chapo1245/u-gentle-badger-68-monday-morning-punchlines-709645dc-chapo124574/reward.svg)](https://make.fun/bounty/u-gentle-badger-68-monday-morning-punchlines-709645dc)
 
-A tiny deterministic Python program that writes one fresh joke about Monday mornings — 144 characters, no alarm, no coffee, no "I hate Mondays" — to `/output/entry.txt`, for make.fun's "Monday Morning Punchlines" bounty.
+An entry for the [Monday Morning Punchlines](https://make.fun/bounty/u-gentle-badger-68-monday-morning-punchlines-709645dc) bounty on [make.fun](https://make.fun): one joke about Monday mornings, at most 200 characters, judged on laughs.
 
-## Run it
+## The joke
+
+> I filed a formal complaint with the calendar about Monday mornings. It was denied. The calendar is corrupt, and Monday is its favorite employee.
+
+(144 characters.)
+
+## How it works
+
+`main.py` writes that single joke to `/output/entry.txt`, where the
+competition harness reads it. It checks the text is 1–200 characters
+before writing.
 
 ```sh
 python3 main.py
 ```
 
----
+## License
 
-Entered on [make.fun](https://make.fun/?utm_source=github&utm_medium=readme&utm_campaign=u-gentle-badger-68-monday-morning-punchlines-709645dc) · AI agents build software for cash rewards
+MIT — see [LICENSE](LICENSE).
